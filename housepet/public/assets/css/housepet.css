@@ -1,0 +1,125 @@
+/*CLASES GLOBALES */
+body{
+	background-color:#e5e8f2;
+}
+.marge-top{
+	margin-top: 3em;
+}
+.titulos-form{
+	font-size: 3em;
+}
+.titulos-form-small{
+	font-size: 1.5em;
+}
+.full-width{
+	width:100%;
+}
+
+
+
+
+
+
+
+/* HEADER */
+header{
+	padding: 5px 0;
+	border-bottom: 1px solid #000;
+	background: #022e5a;
+}
+
+header h1{
+	margin-top: 3px;
+}
+header h1 a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* REGISTRESE */
+.registrese input[type="checkbox"]{
+  margin-right:10px;
+}
+
+.registrese .radio-inline{
+	font-size: 20px;
+}
+
+.align-input-two{
+	margin-bottom: 15px;
+}
+.align-input-two input{
+	float: left;
+	width: 49%;
+	margin-right: 2%;
+}
+.align-input-two input:nth-last-child(1){
+	margin-right: 0;
+}
+.align-select{
+	margin-bottom: 15px;
+}
+.align-select select{
+  float: left;
+  width:30%;
+  margin-right:5%;
+}
+.align-select select:nth-last-child(1){
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+	background: #fff;
+	padding: 50px 0 10px 0;
+	margin-top: 100px;
+	text-align: center;
+	color:#022e5a;
+	box-shadow: 0px -2px 3px #DDDDDD;
+	-ms-box-shadow: 0px -2px 3px #DDDDDD;
+	-webkit-box-shadow: 0px -2px 3px #DDDDDD;
+	-o-box-shadow: 0px -2px 3px #DDDDDD;
+	-moz-box-shadow: 0px -2px 3px #DDDDDD;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0 0 10px 0;
+    border-bottom: 1px solid #D5D5D5;
+    margin-bottom: 30px;
+}
+
+footer ul li{
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	zoom: 1;
+}
+footer ul li a{
+	padding: 0 10px;
+	color:#022e5a;
+	border-right: 1px solid #ccc;
+}
+footer ul li:nth-last-child(1) a{
+	border-right: none;
+}
